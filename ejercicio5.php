@@ -25,13 +25,7 @@
                 $grado="Nota introducida incorrecta";
             }
             return $grado;
-
-        }
-
-
-    
-    
-    
+        } 
     ?>
     
 </body>

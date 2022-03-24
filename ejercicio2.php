@@ -9,11 +9,11 @@
 <body>
     <?php 
 
-    $cuenta=array(); //Creo un array vacio y lo voy llenando con un bucle for, que agrega elementos si cumple la condición de que sea par.
+        $cuenta=array(); //Creo un array vacio y lo voy llenando con un bucle for, que agrega elementos si cumple la condición de que sea par.
     
-    echo amagatall();
+        echo amagatall();
    
-    function amagatall(){
+        function amagatall(){
             
             for ($i=1; $i <= 10; $i++) { 
                 if ($i % 2 == 0) {

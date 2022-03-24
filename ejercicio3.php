@@ -9,11 +9,11 @@
 <body>
     <?php 
     
-    $cuenta=array(); 
-    $finalCuenta=20;    
-    echo amagatall($finalCuenta);
+        $cuenta=array(); 
+        $finalCuenta=20;    
+        echo amagatall($finalCuenta);
    
-    function amagatall($finalCuenta){
+        function amagatall($finalCuenta){
             
             for ($i=1; $i <= $finalCuenta; $i++) { 
                 if ($i % 2 == 0) {

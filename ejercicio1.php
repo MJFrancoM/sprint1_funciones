@@ -20,7 +20,7 @@
             }else {
                 $mensaje="El número no es par";
             }
-            echo $mensaje;
+            return $mensaje;
 
         }
     ?>

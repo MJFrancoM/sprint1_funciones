@@ -12,19 +12,16 @@
         $finalCuenta=10;    
         echo amagatall($finalCuenta);
    
-        function amagatall($finalCuenta){
-            if($finalCuenta>=10){
+        function amagatall($finalCuenta=10){
 
                 for ($i=1; $i <= $finalCuenta; $i++) { 
                    if ($i % 2 == 0) {
                         $cuenta[]=$i;
                    }
-                }
+            
                 foreach($cuenta as $elemento){
                 echo $elemento . "</br>";
                 }
-            }else{
-                echo "El valor introducido debe ser siempre mayor a 10";
             }
         }
     ?>
